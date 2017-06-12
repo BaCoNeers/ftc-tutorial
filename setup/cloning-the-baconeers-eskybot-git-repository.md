@@ -20,7 +20,7 @@ right-click and select "Git-Clone..."
 
 * After it has finished you should see a directory called EskyBot with a green tick overlay. The green tick indicates that the git project has no uncommitted changes.
 
+![](/assets/gitclone5.png)
 
-
-[^1]: We use a depth of 1 because the EskyBot repository is a clone of https://github.com/ftctechnh/ftc\_app.git and it has a large history. Using a Depth of 1 reduces the amount of data you need to download.
+[^1]: We use a depth of 1 because the EskyBot repository is a clone of [https://github.com/ftctechnh/ftc\_app.git](https://github.com/ftctechnh/ftc_app.git) and it has a large history. Using a Depth of 1 reduces the amount of data you need to download.
 
