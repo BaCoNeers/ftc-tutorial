@@ -16,11 +16,12 @@ During the installation of TortoiseGit it will probably ask you to install Git a
 
 ## BlueCoat or other SSL Inspection Systems
 
-If your network uses SSL Inspection, when you try to connect to a https git repository, your git client will receive an SSL certificate which does not match the destination. Git clients by default will attempt to validate the certificate and fail to connect if it detects that the certificate is not from the destination. To overcome this, and you should only do this if this is a problem for you, 
+If your network uses SSL Inspection, when you try to connect to a https git repository, your git client will receive an SSL certificate which does not match the destination. Git clients by default will attempt to validate the certificate and fail to connect if it detects that the certificate is not from the destination. 
+
+To overcome this _\(and you should only do this if this is a problem for you\)_:
 
 * Open a CMD.EXE window and type the following
   `git config --global http.sslVerify false`
-  _you will need this to get through the school wifi_
 
 
 
