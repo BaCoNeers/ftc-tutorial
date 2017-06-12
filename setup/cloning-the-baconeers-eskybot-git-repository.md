@@ -1,5 +1,7 @@
 # Cloning the BaCoNeers EskyBot git repository with TortoiseGit
 
+> Note: we don't use Android Studio's _Check out project from version control_ because the repository does not contain the Android Studio project files.
+
 Choose the directory where you want to build the project from. Don't use a GoogleDrive or One Drive for this, use a local disk.
 
 * Navigate to the directory in Windows Explorer \(Win+E\)
