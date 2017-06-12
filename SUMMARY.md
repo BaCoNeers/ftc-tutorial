@@ -2,7 +2,7 @@
 
 * [Introduction](/README.md)
 * [Setup](/setup/README.md)
-* [setup/AndroidStudio.md](/setup/AndroidStudio.md)
+* [Android Studio](//setup/AndroidStudio.md)
 
 
 
