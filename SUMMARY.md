@@ -9,5 +9,6 @@
   * [Disable Instant Run](setup/disable-instant-run.md)
 * [Tutorial 1 - Telemetry](tutorial1/README.md)
   * [Switch to the tutorial01 branch](tutorial1/switch-to-the-tutorial1-branch.md)
+  * [The Project files](tutorial1/the-project-files.md)
 * [Links](links.md)
 
