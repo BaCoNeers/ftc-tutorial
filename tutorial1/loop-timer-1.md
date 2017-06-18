@@ -1,7 +1,3 @@
-|  |  |  |  |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
 # Decoding OpModes using LoopTimer1
 
 We will use the LoopTimer1 class to examine the components of an OpMode. The code block below represents the entirety of the LoopTime1 class.
@@ -82,10 +78,6 @@ The import statements import other class definitions or packages into this class
  @TeleOp(name = "Loop Timer 1", group = "Tests")
 //@Disabled
 ```
-
-
-
-
 
 
 
