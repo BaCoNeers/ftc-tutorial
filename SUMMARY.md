@@ -8,7 +8,6 @@
   * [Importing EskyBot into Android Studio](setup/importing-eskybot-into-android-studio.md)
   * [Disable Instant Run](setup/disable-instant-run.md)
 * [Tutorial 1 - Telemetry](tutorial1/README.md)
+  * [Switch to the tutorial01 branch](tutorial1/switch-to-the-tutorial1-branch.md)
 * [Links](links.md)
-
-
 
