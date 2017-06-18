@@ -79,5 +79,24 @@ The import statements import other class definitions or packages into this class
 //@Disabled
 ```
 
+The **@TeleOp** Annotation is needed for the FTC Robot Controller code to find your code. You should use @TeleOp to include it under the TeleOp menu on the driver station or **@Autonomous** to include it under the Autonomous menu.
+
+The name parameter sets the name to be included in the menu. Duplicate names are not supported, you should use unique names. If you use the same name on more than one, only one will be included in the menu and you won't know which one.
+
+Finally the **@Disabled** annotation can be used to prevent the robot controller from displaying it in the menu. You can use this feature to create test OpModes that you can enable/disable as you need. The **@Disabled** annotation is commented in this code and so will appear in the menu.
+
+These annotations must appear just prior to the class declaration you want them to apply to.
+
+## Class declaration
+
+```
+public class LoopTimer1 extends LinearOpMode {
+```
+
+```
+
+
+```
+
 
 
