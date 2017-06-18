@@ -10,5 +10,6 @@
 * [Tutorial 1 - Telemetry](tutorial1/README.md)
   * [Switch to the tutorial01 branch](tutorial1/switch-to-the-tutorial1-branch.md)
   * [The Project files](tutorial1/the-project-files.md)
+  * [Decoding OpModes using LoopTimer1](tutorial1/loop-timer-1.md)
 * [Links](links.md)
 
