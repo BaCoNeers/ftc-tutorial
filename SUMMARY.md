@@ -14,5 +14,6 @@
   * [Simple Telemetry - Loop Timer 1](tutorial1/simple-telemetry-loop-timer-1.md)
   * [More Telemetry - Loop Timer 2](tutorial1/more-telemetry-loop-timer-2.md)
   * [Better Telemetry - Loop Timer 3](tutorial1/better-telemetry-loop-timer-3.md)
+  * [Telemetry Summary](tutorial1/telemetry-summary.md)
 * [Links](links.md)
 
