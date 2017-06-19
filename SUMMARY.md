@@ -16,7 +16,6 @@
   * [Better Telemetry - Loop Timer 3](tutorial1/better-telemetry-loop-timer-3.md)
   * [Telemetry Summary](tutorial1/telemetry-summary.md)
 * [Tutorial 2 - Normal Drive](/tutorial2/tutorial-2-normal-drive.md)
+  * [Switch to the tutorial02 branch](tutorial2/tutorial-2-normal-drive/switch-to-the-tutorial02-branch.md)
 * [Links](links.md)
-
-
 
