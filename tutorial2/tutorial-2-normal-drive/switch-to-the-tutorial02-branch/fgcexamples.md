@@ -84,7 +84,7 @@ public class TwoMotorRobot extends RobotConfiguration {
     }
 ```
 
-The configuration has public access class variables for each motor, which are initialised in the init\(\) method. 
+The configuration has public access class variables for each motor, which are initialised in the init\(\) method.
 
 ## FGOpMode implementation
 
@@ -136,12 +136,53 @@ public class DriveTwoMotors extends FGOpMode {
 }
 ```
 
+We'll go through it bit by bit.
+
 The @TeleOp Annotation is required for it to appear in the TeleOp Menu on the Driver Station. Although it should use _name=_ instead of _group=._
 
 ```
 @TeleOp (group = "TwoMotorRobot")
 //@Disabled
 public class DriveTwoMotors extends FGOpMode {
+```
+
+Then the class variables are declared
+
+```
+private TwoMotorRobot robot;
+private GamePadMotor leftWheel;
+private GamePadMotor rightWheel;
+```
+
+The onInit\(\) method creates a TwoMotorRobot instance which configures the motors.
+
+```
+protected void onInit() {
+    robot = TwoMotorRobot.newConfig(hardwareMap, telemetry);
+}
+```
+
+The onStart\(\) method first calls super.onStart\(\) this calls the FGOpMode.onStart\(\) method. 
+
+It then sets up the game controller and maps the gamepad 1 left and right joystick to the left and right motor respectively.
+
+```
+protected void onStart() throws InterruptedException {
+    super.onStart();
+    leftWheel = new GamePadMotor(this, gamepad1, robot.motor0, GamePadMotor.Control.LEFT_STICK_Y);
+    rightWheel = new GamePadMotor(this, gamepad1, robot.motor1, GamePadMotor.Control.RIGHT_STICK_Y);
+}
+```
+
+The activeLoop\(\) then just updates the power for each motor based on the joystick values
+
+```
+protected void activeLoop() throws InterruptedException {
+    //update the motor with the gamepad joystick values
+    leftWheel.update();
+    //update the servo with the gamepad y/a button values
+    rightWheel.update();
+}
 ```
 
 
