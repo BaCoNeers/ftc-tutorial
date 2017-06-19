@@ -1,6 +1,6 @@
 # Summary
 
-[Introduction](/README.md)
+# [Introduction](/README.md)
 
 [Setup](/setup/README.md)
 
@@ -23,6 +23,4 @@
 * [Links](links.md)
 
 [Tutorial 2 - Normal Drive](tutorial-2-normal-drive.md)
-
-
 
