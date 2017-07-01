@@ -15,8 +15,9 @@
   * [More Telemetry - Loop Timer 2](tutorial1/more-telemetry-loop-timer-2.md)
   * [Better Telemetry - Loop Timer 3](tutorial1/better-telemetry-loop-timer-3.md)
   * [Telemetry Summary](tutorial1/telemetry-summary.md)
-* [Tutorial 2 - Normal Drive](/tutorial2/tutorial-2-normal-drive.md)
+* [Tutorial 2 - Tank Drive](/tutorial2/tutorial-2-normal-drive.md)
   * [Switch to the tutorial02 branch](tutorial2/tutorial-2-normal-drive/switch-to-the-tutorial02-branch.md)
   * [FGCExamples](tutorial2/tutorial-2-normal-drive/switch-to-the-tutorial02-branch/fgcexamples.md)
+  * [EskyBot Configuration](tutorial2/tutorial-2-normal-drive/eskybot-configuration.md)
 * [Links](links.md)
 
