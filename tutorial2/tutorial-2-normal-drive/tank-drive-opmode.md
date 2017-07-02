@@ -22,7 +22,7 @@ You will see that the copied class now shows some errors which are highlighted i
 
 ![](/assets/tut2_opmode4.png)
 
-When you rename **TwoMotorRobot** to **EskyBot**, AndroidStudio may complain that it can't resolve the symbol EskyBot. 
+When you rename **TwoMotorRobot** to **EskyBot**, AndroidStudio may complain that it can't resolve the symbol EskyBot.
 
 ![](/assets/tut2_opmode5.png)
 
@@ -93,8 +93,19 @@ public class TankDrive extends FGOpMode {
     }
 
 }
-
 ```
 
+To run the Tank Drive OpMode, connect the RobotController via USB to your computer and click the AndroidStudio Run button which will build and install the RobotController app onto the RobotController.
 
+![](/assets/run_teamcode.png)
+
+Android Studio may ask you what device to deploy it on. Select your device and click OK.
+
+![](/assets/run_deploy_target.png)
+
+If this is the first time you have connected the phone may ask you to accept the debug connection first.
+
+After Android Studio has successfully deployed the RobotController app to the RobotController, unplug the RobotController from the computer and plug it into the EskyBot robot. Then use the Driver Station to select the Tank Drive OpMode, connect a game controller to the driver station  and press Start + A to assign the game controller to gamepad A, Initialise the OpMode and then Run and you should now be able to control EskyBot in a tank configuration with the left and right joysticks.
+
+![](/assets/Screenshot_20170702-115816.png)
 
