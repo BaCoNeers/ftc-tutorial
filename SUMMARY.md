@@ -20,5 +20,7 @@
   * [FGCExamples](tutorial2/tutorial-2-normal-drive/switch-to-the-tutorial02-branch/fgcexamples.md)
   * [EskyBot Configuration](tutorial2/tutorial-2-normal-drive/eskybot-configuration.md)
   * [Tank Drive OpMode](tutorial2/tutorial-2-normal-drive/tank-drive-opmode.md)
+  * [Adding a loop timer](tutorial2/tutorial-2-normal-drive/adding-a-loop-timer.md)
+  * [Faster Loop Timer](tutorial2/tutorial-2-normal-drive/faster-loop-timer.md)
 * [Links](links.md)
 
